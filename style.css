@@ -64,6 +64,7 @@ footer {
   margin-top: 130px;
   background-color: rgb(245, 245, 112);
   height: 70px;
+  margin-bottom: 0px;
 }
 #footer_container {
   justify-content: end;

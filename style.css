@@ -62,7 +62,7 @@ body {
 footer {
   height: 10%;
   margin-top: 130px;
-  background-color: yellow;
+  background-color: rgb(245, 245, 112);
   height: 70px;
 }
 #footer_container {

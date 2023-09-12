@@ -1,0 +1,70 @@
+* {
+  color: black;
+}
+
+/* header */
+
+header {
+  background-color: greenyellow;
+  height: 80px;
+}
+#container_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo {
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  top: 0;
+}
+#lista_container {
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+a {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* body */
+
+body {
+  background-color: white;
+  color: white;
+  height: 100%;
+}
+#btnAdd {
+  color: black;
+  background-color: greenyellow;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+#btnAdd:hover {
+  background-color: rgb(245, 241, 8);
+}
+
+#btnUpdate {
+  display: none;
+}
+
+#tableData {
+  width: 95%;
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  height: 10%;
+  margin-top: 130px;
+  background-color: yellow;
+  height: 70px;
+}
+#footer_container {
+  justify-content: end;
+}
